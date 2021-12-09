@@ -13,6 +13,7 @@ permissions and limitations under the License.
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class OVRHeadsetEmulator : MonoBehaviour {
 	public enum OpMode
@@ -26,9 +27,9 @@ public class OVRHeadsetEmulator : MonoBehaviour {
 	public bool resetHmdPoseOnRelease = true;
 	public bool resetHmdPoseByMiddleMouseButton = true;
 
-	public KeyCode[] activateKeys = new KeyCode[] { KeyCode.LeftControl, KeyCode.RightControl };
+	public Key[] activateKeys = new Key[] { Key.LeftCtrl, Key.RightCtrl };
 
-	public KeyCode[] pitchKeys = new KeyCode[] { KeyCode.LeftAlt, KeyCode.RightAlt };
+	public Key[] pitchKeys = new Key[] { Key.LeftAlt, Key.RightAlt };
 
 	OVRManager manager;
 
@@ -152,9 +153,10 @@ public class OVRHeadsetEmulator : MonoBehaviour {
 			return false;
 		}
 
-		foreach (KeyCode key in activateKeys)
+		foreach (Key key in activateKeys)
 		{
-			if (Input.GetKey(key))
+			//if (Input.GetKey(key))
+			if (Keyboard.current[key].wasPressedThisFrame)
 				return true;
 		}
 
@@ -166,9 +168,10 @@ public class OVRHeadsetEmulator : MonoBehaviour {
 		if (!IsEmulationActivated())
 			return false;
 
-		foreach (KeyCode key in pitchKeys)
+		foreach (Key key in pitchKeys)
 		{
-			if (Input.GetKey(key))
+			//if (Input.GetKey(key))
+			if (Keyboard.current[key].wasPressedThisFrame)
 				return true;
 		}
 
