@@ -1,9 +1,7 @@
 {
     "name": "Oculus.VR",
-    "rootNamespace": "",
     "references": [
-        "GUID:15fc0a57446b3144c949da3e2b9737a9",
-        "GUID:75469ad4d38634e559750d17036d5f7c"
+        "GUID:15fc0a57446b3144c949da3e2b9737a9"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
@@ -22,6 +20,11 @@
             "name": "com.unity.xr.oculus",
             "expression": "",
             "define": "USING_XR_SDK_OCULUS"
+        },
+        {
+            "name": "com.unity.xr.openxr",
+            "expression": "",
+            "define": "USING_XR_SDK_OPENXR"
         },
         {
             "name": "com.unity.xr.oculus",
