@@ -1,0 +1,35 @@
+ManifestFileVersion: 0
+CRC: 4057858168
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c1dcc5180000c1b899675827df453de2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ad0d7498d7a4c785b78a4b02fd50f33c
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3863570e7e6387a40ae4f323d83291e5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 191492db6e452eb468b95433ec162164, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Resources/OculusRuntimeSettings.asset
+- Assets/Oculus/VR/Resources/OVRMRUnlitTransparent.shader
+- Assets/Resources/OVRPlatformToolSettings.asset
+- Assets/Oculus/VR/Resources/OVRMRUnlit.shader
+- Assets/XRI/Settings/Resources/InteractionLayerSettings.asset
+- Assets/Resources/OVRBuildConfig.asset
+- Assets/Oculus/VR/Resources/OVRMRCameraFrame.shader
+- Assets/Oculus/VR/Resources/OVRMRCameraFrameLit.shader
+- Assets/Oculus/VR/Resources/Cubemap Blit.shader
+- Assets/Oculus/VR/Resources/Underlay Impostor.shader
+- Assets/Oculus/VR/Resources/Underlay Transparent Occluder.shader
+- Assets/Oculus/VR/Resources/Texture2D Blit.shader
+- Assets/Oculus/VR/Resources/Unlit Transparent Color.shader
+Dependencies: []

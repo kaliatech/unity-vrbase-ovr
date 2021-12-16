@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 1517625847
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6609d9363db5cf7e75abbc04c3170d5d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 939e20ecac0e95a3f7c5cfb3e57acb1d
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Oculus/VR/Meshes/OculusTouchForQuestAndRiftS/Materials/OculusTouchForQuestAndRiftS_Material.mat
+- Assets/Oculus/VR/Meshes/OculusTouchForRift/Materials/OculusTouchForRift_Material.mat
+- Assets/Materials/Skybox Light.mat
+- Assets/Materials/Grid.mat
+- Assets/Oculus/VR/Meshes/OculusTouchForQuest2/Materials/OculusTouchForQuest2_MAT.mat
+Dependencies:
+- C:/Projects/unity/UnityVrBase-OVR/OVRAssetBundles/OVRMasterBundle/asset_png0
+- C:/Projects/unity/UnityVrBase-OVR/OVRAssetBundles/OVRMasterBundle/asset_tga0

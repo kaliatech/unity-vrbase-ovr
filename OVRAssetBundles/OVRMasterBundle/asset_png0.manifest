@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 3053536378
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1219d6f4211aa5742ad24822292878c1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b0363f7088f9761414f730641bf9a24b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Textures/Grid_Light_512x512.png
+- Assets/Oculus/VR/Textures/OculusTouchForRift/touchController_albedo.png
+Dependencies: []
